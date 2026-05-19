@@ -11,7 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 load_dotenv()
 
 # Configuration du modèle LLM (Modèle issu de ta capture d'écran)
-llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0)
+llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 
 def main():
     st.set_page_config(page_title="Assistant RAG Pro", layout="wide")
